@@ -57,3 +57,25 @@
 .hero-content > * {
   margin-bottom: 24px;
 }
+
+.footer {
+  max-width: 1280px;
+  margin-inline: auto;
+  padding: 32px;
+  text-align: center;
+  border-top: 1px solid #d4d4d4;
+}
+
+.social-links {
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.social-links > * {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.social-links > :last-child {
+  margin-right: 0;
+}
